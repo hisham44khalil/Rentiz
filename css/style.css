@@ -423,7 +423,7 @@ header.sticky {
   .navbar {
     position: absolute;
     top: 100%;
-    right: -30%;
+    right: -70%;
     width: 270px;
     height: 100vh;
     display: flex;
