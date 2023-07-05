@@ -362,6 +362,7 @@ header.sticky {
 
 /****** media start ******/
 
+
 @media (max-width: 1790px) {
   header {
     padding: 18px 15%;
@@ -382,7 +383,7 @@ header.sticky {
 
 @media (max-width: 1425px) {
   :root {
-    --h1-font: 4.5rem;
+    --h1-font: 5.7rem;
     --h2-font: 2.6rem;
     --p-font: 1rem;
   }
@@ -423,7 +424,7 @@ header.sticky {
   .navbar {
     position: absolute;
     top: 100%;
-    right: -300%;
+    right: -100%;
     width: 270px;
     height: 100vh;
     display: flex;
@@ -446,7 +447,7 @@ header.sticky {
   }
 
   :root {
-    --h1-font: 4rem;
+    --h1-font: 4.5rem;
     --h2-font: 2rem;
     --p-font: 1.3rem;
   }
@@ -466,7 +467,7 @@ header.sticky {
   .home-img {
     width: 480px;
     height: 480px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 20px;
   }
 
@@ -479,7 +480,7 @@ header.sticky {
   :root {
     --h1-font: 3.4rem;
     --h2-font: 2rem;
-    --p-font: 15px;
+    --p-font: 15;
   }
 
   .home {
@@ -488,14 +489,19 @@ header.sticky {
   }
 
   .home-img {
-    width: 370px;
-    height: 370px;
+    width: 340px;
+    height: 340px;
     padding-top: 10px;
   }
-
+  .home-text {
+    width: 400px;
+  }
 
   .subscribe-content {
     padding: 4rem 1rem;
   }
 
+  /* section {
+    padding: 70px 5% 60px;
+  } */
 }
