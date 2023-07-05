@@ -364,19 +364,19 @@ header.sticky {
 
 @media (max-width: 1790px) {
   header {
-    padding: 18px 6%;
+    padding: 18px 15%;
   }
 
   section {
-    padding: 70px 6% 60px;
+    padding: 70px 15% 60px;
   }
 
   header.sticky {
-    padding: 7px 6%;
+    padding: 7px 15%;
   }
 
   .feature {
-    padding: 40px 6% 30px;
+    padding: 40px 15% 30px;
   }
 }
 
@@ -423,7 +423,7 @@ header.sticky {
   .navbar {
     position: absolute;
     top: 100%;
-    right: -70%;
+    right: -300%;
     width: 270px;
     height: 100vh;
     display: flex;
