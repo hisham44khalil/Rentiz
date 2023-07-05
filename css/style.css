@@ -2,14 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
-  scroll-padding-top: 3rem;
+  /* scroll-padding-top: 3rem; */
   outline: none;
   border: none;
-/*   overflow: hidden; */
 }
 
 :root {
@@ -172,7 +171,7 @@ header.sticky {
   object-fit: contain;
 }
 
-/****** feature start ******/
+/* ***** feature start ***** */
 .feature {
   padding: 60px 15% 50px;
 }
@@ -362,27 +361,28 @@ header.sticky {
 }
 
 /****** media start ******/
+
 @media (max-width: 1790px) {
   header {
-    padding: 18px 15%;
+    padding: 18px 6%;
   }
 
   section {
-    padding: 70px 15% 60px;
+    padding: 70px 6% 60px;
   }
 
   header.sticky {
-    padding: 7px 15%;
+    padding: 7px 6%;
   }
 
   .feature {
-    padding: 40px 15% 30px;
+    padding: 40px 6% 30px;
   }
 }
 
 @media (max-width: 1425px) {
   :root {
-    --h1-font: 5.7rem;
+    --h1-font: 4.5rem;
     --h2-font: 2.6rem;
     --p-font: 1rem;
   }
@@ -423,7 +423,7 @@ header.sticky {
   .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    right: -30%;
     width: 270px;
     height: 100vh;
     display: flex;
@@ -446,7 +446,7 @@ header.sticky {
   }
 
   :root {
-    --h1-font: 4.5rem;
+    --h1-font: 4rem;
     --h2-font: 2rem;
     --p-font: 1.3rem;
   }
@@ -466,7 +466,7 @@ header.sticky {
   .home-img {
     width: 480px;
     height: 480px;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 20px;
   }
 
@@ -479,7 +479,7 @@ header.sticky {
   :root {
     --h1-font: 3.4rem;
     --h2-font: 2rem;
-    --p-font: 15;
+    --p-font: 15px;
   }
 
   .home {
@@ -488,19 +488,14 @@ header.sticky {
   }
 
   .home-img {
-    width: 340px;
-    height: 340px;
+    width: 400px;
+    height: 400px;
     padding-top: 10px;
   }
-  .home-text {
-    width: 400px;
-  }
+
 
   .subscribe-content {
     padding: 4rem 1rem;
   }
 
-  /* section {
-    padding: 70px 5% 60px;
-  } */
 }
