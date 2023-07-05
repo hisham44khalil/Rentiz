@@ -9,7 +9,7 @@
   scroll-padding-top: 3rem;
   outline: none;
   border: none;
-  overflow: hidden;
+/*   overflow: hidden; */
 }
 
 :root {
